@@ -1,0 +1,26 @@
+vendor/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+bin
+.go
+.push-*
+.container-*
+.dockerfile-*
+
+go.sum
+
+.vscode/
+
+# misc
+.DS_Store
+.env
+.env.local
