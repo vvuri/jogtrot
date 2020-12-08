@@ -17,7 +17,7 @@ build:
 .PHONY: run
 run:
 	echo "Starting $(PROJECTNAME)"
-	go run cmd/jogtrot/main.go
+	go run cmd/jogtrot/*.go
 
 .PHONY: docs
 docs:
